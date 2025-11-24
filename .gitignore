@@ -1,0 +1,18 @@
+
+---
+
+# 3) .gitignore (colocar na raiz)
+```gitignore
+# binários
+/bin
+*.o
+*.out
+*.exe
+
+# editor/IDE
+.vscode/
+.idea/
+
+# arquivos temporarios
+*~
+*.swp
