@@ -23,3 +23,13 @@ make list
 
 # executar um executável (ex: Alura/hello.c -> NAME=Alura/hello)
 make run NAME=Alura/hello
+.
+├── src/            # todo código fonte (.c)
+│   ├── alura/
+│   ├── exercises/
+│   └── utils/
+├── examples/       # executáveis de exemplo ou entradas de teste
+├── bin/            # binários gerados pelo Makefile
+├── tests/          # inputs/outputs para testes automatizados
+├── README.md
+└── Makefile
